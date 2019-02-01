@@ -12,5 +12,12 @@ public class UniqueCharTester extends TestCase {
 		//assertFalse(unique.uniqueCharString("abcdezz"));
 		assertTrue(unique.uniqueCharString("abcdez"));
 	}
+	
+	@Test
+	public void testUniqueChar_2ndTrial(){
+		UniqueChar_2ndTrial unique= new UniqueChar_2ndTrial();
+		assertFalse(unique.uniqueChar("abcdezz"));
+		//assertTrue(unique.uniqueChar("abcdez"));
+	}
 
 }

@@ -23,8 +23,7 @@ public class ProjectPriority {
 	 }
 	 
 	 
-	 
-	 
+	
 	 // add the Projects with no dependencies
 	 
 	 for (String projectName:projects){

@@ -18,6 +18,57 @@ public class StairCaseHop {
 	Integer smlst=0;
 	
 	
+	//The method which works right
+	public Integer computeCombinationOfSteps(int totalSteps, int numOfPossibilities){
+		
+		//Combination of 1 and 2
+		// 1 1
+		// 2 11 2
+		// 3 111 21 12
+		// 4 1111 211 121 22 112
+		// 5 11111 2111 1211 221 1121 1112 212 122
+		// 6 11111 2111 1211 221 1121 1112 212 122
+		
+		//Combination of 1, 2 and 3
+		// 1 1
+		// 2 11 2
+		// 3 111 21 12 3
+		// 4 1111 211 121 31 13 22 112
+		// 5 11111 2111 1211 311 131 221 1121 1112 212 122 32 113 23
+		
+		Map<Integer, Integer> map= new HashMap<Integer, Integer>();
+		map.put(1, 1);
+		map.put(2,2);
+		
+		int temp=0;
+		
+		if (totalSteps<1){
+			System.out.println("Too less steps provided");
+		}
+		
+		for (int i=3;i<=totalSteps;i++){
+			
+			for (int j=1;j<=numOfPossibilities && j<i;j++){
+				temp+= map.get(i-j);		
+			}
+			
+			if (numOfPossibilities==i){
+				temp+=1;
+			}
+			
+			map.put(i,temp);
+			temp=0;
+			//1 1
+			//2 2
+			//3
+		}
+		
+		return map.get(totalSteps);
+		
+	}
+	
+	
+	
 	public Integer countNumberOfSteps(Integer s1, Integer s2, Integer s3, Integer n){
 		
 		if (s1<s2){
@@ -81,6 +132,8 @@ public class StairCaseHop {
 		//int[] a= new int[5];
 		
 
+		
+		
 		// 1 1              1                                                                                   (1x0)+1 = 1
 		// 2 2[11 2]        1 + 1                                                                               (1X1)+1 = 2
 		// 3 3[111 21 3]    1 + 1 + 1                                                                           (1X2)+1 = 3
@@ -124,9 +177,9 @@ public class StairCaseHop {
 		}
 		
 	}
-	
-
-	
 }
+
+
+
 	
 	

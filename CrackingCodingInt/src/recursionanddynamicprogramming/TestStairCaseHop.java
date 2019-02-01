@@ -10,7 +10,10 @@ public class TestStairCaseHop extends TestCase{
 	public void testStairCaseHop(){
 		StairCaseHop stairHop= new StairCaseHop();
 		//assertTrue(stairHop.countNumberOfSteps(1,2,3,6)==12);
-		System.out.println(stairHop.countNumberOfSteps(1, 2, 3, 7));
+		//System.out.println(stairHop.countNumberOfSteps(1, 2, 3, 20));
+		
+		System.out.println(stairHop.computeCombinationOfSteps(5, 3));
+		
 	}
 
 }

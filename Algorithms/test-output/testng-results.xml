@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55" started-at="2018-06-08T20:01:31Z" finished-at="2018-06-08T20:01:31Z">
+  <suite name="Default suite" duration-ms="45" started-at="2019-01-23T21:50:51Z" finished-at="2019-01-23T21:50:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55" started-at="2018-06-08T20:01:31Z" finished-at="2018-06-08T20:01:31Z">
-      <class name="facebook.reverselinkedlist.TestReverseLinkedList">
-        <test-method status="PASS" signature="reverseLinkedList()[pri:0, instance:null(facebook.reverselinkedlist.TestReverseLinkedList)]" name="reverseLinkedList" duration-ms="22" started-at="2018-06-08T13:01:31Z" finished-at="2018-06-08T13:01:31Z">
+    <test name="Default test" duration-ms="45" started-at="2019-01-23T21:50:51Z" finished-at="2019-01-23T21:50:51Z">
+      <class name="mumexam.awettesfamariam.IsOnionTest">
+        <test-method status="PASS" signature="isOnionTest()[pri:0, instance:null(mumexam.awettesfamariam.IsOnionTest)]" name="isOnionTest" duration-ms="15" started-at="2019-01-23T13:50:51Z" finished-at="2019-01-23T13:50:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reverseLinkedList -->
-      </class> <!-- facebook.reverselinkedlist.TestReverseLinkedList -->
+        </test-method> <!-- isOnionTest -->
+      </class> <!-- mumexam.awettesfamariam.IsOnionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

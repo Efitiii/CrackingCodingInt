@@ -1,13 +1,10 @@
 package facebook.printbinarytree;
 
-import org.testng.annotations.Test;
 
 import junit.framework.TestCase;
 
+public class TestPrintBinaryTree extends TestCase {
 
-public class TestPrintBinaryTree extends TestCase{
-	
-	@Test
 	public void printBinaryTree(){
 		MyBinaryTree tree= new MyBinaryTree();
 		tree.add('H');
