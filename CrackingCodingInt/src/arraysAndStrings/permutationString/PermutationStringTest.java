@@ -1,6 +1,7 @@
 package arraysAndStrings.permutationString;
 
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
+
 
 import junit.framework.TestCase;
 

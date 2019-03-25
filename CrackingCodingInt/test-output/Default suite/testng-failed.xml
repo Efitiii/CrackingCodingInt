@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="recursionanddynamicprogramming.TestStairCaseHop">
+      <class name="treesAndGraphs.PathsWithSum.TestPathsWithSum">
         <methods>
-          <include name="testStairCaseHop"/>
+          <include name="testpathWithSum"/>
         </methods>
-      </class> <!-- recursionanddynamicprogramming.TestStairCaseHop -->
+      </class> <!-- treesAndGraphs.PathsWithSum.TestPathsWithSum -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

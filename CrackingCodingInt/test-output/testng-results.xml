@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59" started-at="2019-01-19T06:30:56Z" finished-at="2019-01-19T06:30:56Z">
+  <suite name="Default suite" duration-ms="58" started-at="2019-02-13T19:35:50Z" finished-at="2019-02-13T19:35:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59" started-at="2019-01-19T06:30:56Z" finished-at="2019-01-19T06:30:56Z">
-      <class name="recursionanddynamicprogramming.TestStairCaseHop">
-        <test-method status="PASS" signature="testStairCaseHop()[pri:0, instance:null(recursionanddynamicprogramming.TestStairCaseHop)]" name="testStairCaseHop" duration-ms="23" started-at="2019-01-18T22:30:56Z" finished-at="2019-01-18T22:30:56Z">
+    <test name="Default test" duration-ms="58" started-at="2019-02-13T19:35:50Z" finished-at="2019-02-13T19:35:50Z">
+      <class name="sortingandsearching.peaksAndValleys.TestPeaksAndValleys">
+        <test-method status="PASS" signature="testPeakAndValleys()[pri:0, instance:null(sortingandsearching.peaksAndValleys.TestPeaksAndValleys)]" name="testPeakAndValleys" duration-ms="18" started-at="2019-02-13T11:35:50Z" finished-at="2019-02-13T11:35:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testStairCaseHop -->
-      </class> <!-- recursionanddynamicprogramming.TestStairCaseHop -->
+        </test-method> <!-- testPeakAndValleys -->
+      </class> <!-- sortingandsearching.peaksAndValleys.TestPeaksAndValleys -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
